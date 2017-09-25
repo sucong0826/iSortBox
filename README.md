@@ -33,7 +33,7 @@ What is iSortBox? Just like what it says: **Simplify sorting!**
  - Group (part 3)
  - Filter (part 4)
 
-These parts are obtained through a lot of trying and analyzing. In order to complete a sorting, these parts are enough for developers.
+These parts are obtained through a lot of trying and analyzing. In order to complete sort, these parts are enough for developers.
 
 Next, I will analyze each part with code and how to make full use of these parts.
 
@@ -77,7 +77,7 @@ public class Student {
 The part of process is going to complete several steps, it contains :
 1. Receive an input
 2. Pre-process (optional)
-3. Configure sorting
+3. Configure sort
 4. Find sorting keys
 5. Convert
 6. Sort

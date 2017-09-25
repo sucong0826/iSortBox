@@ -78,7 +78,7 @@ The part of process is going to complete several steps, it contains :
 1. Receive an input
 2. Pre-process (optional)
 3. Configure sort
-4. Find sorting keys
+4. Find sort keys
 5. Convert
 6. Sort
 7. Sample
@@ -185,11 +185,11 @@ When `build()` is called, an instance of `SortConfig<T>` will be generated.
 
 ------
 
-1.4 **Find sorting keys (private implementation)**
+1.4 **Find sort keys (private implementation)**
 
-Once you specify the properties whatever you give or you select from `PropertyTable`, **Find sorting keys** is an important step. iSortBox is going to pick out these properties you select then it checks whether these properties are truly existing through `PropertyTable` or direct reflection. After checking, the remaining properties will be put into `SortKey` which has the same role as `PropertyTableItem`.
+Once you specify the properties whatever you give or you select from `PropertyTable`, **Find sort keys** is an important step. iSortBox is going to pick out these properties you select then it checks whether these properties are truly existing through `PropertyTable` or direct reflection. After checking, the remaining properties will be put into `SortKey` which has the same role as `PropertyTableItem`.
 
-The result of finding sort key  is `List<TwoTuple<T, Queue<SortKey>>>`. `TwoTuple<F, S>` is a kind of skill that makes two objects become one object. As above, `T` can be regarded as the type of `Student`, `Queue<SortKey>` is a set of `SortKey` which holds the information of specified properties. 
+The result of finding sort keys is `List<TwoTuple<T, Queue<SortKey>>>`. `TwoTuple<F, S>` is a kind of skill that makes two objects become one object. As above, `T` can be regarded as the type of `Student`, `Queue<SortKey>` is a set of `SortKey` which holds the information of specified properties. 
 
 ------
 

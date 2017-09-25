@@ -195,7 +195,7 @@ The result of finding sort keys is `List<TwoTuple<T, Queue<SortKey>>>`. `TwoTupl
 
 1.5. **Convert (private implementation)**
 
-Before illustrating what is convert, let's familiar with a class `SortItem<T>`. This class collects a set of `SortKey`and keeps an original data of `T`. Actually, when `SortExecutor` executes a sort, it sorts a list of `SortItem<T>`.  You are maybe puzzled about this, but class `SortItem<T>` is a middle component as well, it belongs to the inner detail of iSortBox framework. The reason of why this class is designated in iSortBox is to complete sorting but keeps the original data.
+Before illustrating what is convert, let's familiar with a class `SortItem<T>`. This class collects a set of `SortKey`and keeps an original data of `T`. Actually, when `SortExecutor` executes a sort, it sorts a list of `SortItem<T>`.  You are maybe puzzled about this, but class `SortItem<T>` is a middle component as well, it belongs to the inner detail of iSortBox framework. The reason of why this class is designated in iSortBox is to complete a sort but keeps the original data.
 
 ------
 

@@ -17,7 +17,7 @@ What is iSortBox? Just like what it says: **Simplify sorting!**
  
  What iSortBox tries to solve is **to standardize the usage of sorting in a project**. That's the aim of iSortBox. There are no advanced skills and technologies in iSortBox, instead, it just simplifies sort by encapsulating several standardized and  processed steps to make you sort easily.
  
- Therefore, iSortBox acts as a helper framework. Once you want to sort a disordered set, iSortBox will help you solve the sorting issue.
+ Therefore, iSortBox acts as a helper framework. Once you want to sort a disordered set, iSortBox will help you solve the sort issue.
  
  
  ### iSortBox Prototype
